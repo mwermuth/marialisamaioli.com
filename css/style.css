@@ -1,0 +1,96 @@
+body{
+  background-image: url('/img/classy_fabric.png');
+font-family: 'Raleway', cursive;
+  
+}
+
+div.name{
+
+  font-size: 50px;
+  margin-left: 50px;
+font-weight:100;
+color: white;
+}
+
+div.name h1{
+  
+  margin-bottom: 10px;
+
+}
+
+div.name h3{
+
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 24px;
+  color: #dc5558;
+  padding-left:6px;  
+
+}
+
+a.mail{
+	display: block;
+	background: url('/img/vcard_dark.png') bottom;
+	text-indent: -99999px;
+	width: 64px;
+	height: 64px;
+}
+
+a.mail:hover{
+	background: url('/img/vcard_active.png') bottom;
+}
+
+a.fb{
+	display: block;
+	background: url('/img/facebook_dark.png') bottom;
+	text-indent: -99999px;
+  	width: 64px;
+	height: 64px;
+}
+
+a.fb:hover{
+	background: url('/img/facebook_active.png') bottom;
+}
+
+
+a.twitter{
+	display: block;
+	background: url('/img/twitter02_dark.png') bottom;
+	text-indent: -99999px;
+  	width: 64px;
+	height: 64px;
+}
+
+a.twitter:hover{
+	background: url('/img/twitter02_active.png') bottom;
+}
+
+
+a.linkedin{
+	display: block;
+	background: url('/img/in_dark.png') bottom;
+	text-indent: -99999px;
+	width: 64px;
+	height: 64px;
+
+}
+
+a.linkedin:hover{
+	background: url('/img/in_active.png') bottom;
+}
+
+
+ul.contacts{
+  
+  float: left;
+  list-style: none;
+  margin-left:50px;    
+
+  padding: 0 0 0 0;
+
+}
+
+ul.contacts li{
+  float: left;
+  margin-right: 35px;
+}
